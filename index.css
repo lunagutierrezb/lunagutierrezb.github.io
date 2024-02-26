@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+<link rel="stylesheet" href="style.css">
+
+
+
+<!-- Menú de navegación del sitio -->
+<ul class="navbar">
+<li><a href="index.html">Datos básicos</a>
+<li><a href="preferencias.html">Teoria</a>
+<li><a href="ejercicios.html</a>
+<li><a href="quiz.html">Test</a>
+</ul>
+
+https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/

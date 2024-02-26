@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-10">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>Quiz de Redes</title>
+	<fieldset>
+	
+<legend>Información personal</legend>
+<p><label>Nombre: <input class="info"></label>&nbsp;&nbsp;&nbsp;<label>Apellido: <input class="info"></label></p>
+<p><label>Telefono: <input class="info" type="tel"></label>&nbsp;&nbsp;&nbsp;
+<label>Correo electronico: <input class="info" type=email></label></p>
+<p><label>Fecha de nacimiento: <input class="info"> 
+
+    <style>
+        /* Estilos CSS para el quiz */
+        head {
+            font-family: Arial, sans-serif;
+        }
+        .question {
+            font-weight: bold;
+        }
+        .answer {
+            margin-left: 30px;
+        }
+    </style>
+	
+</head>
+<body>
+    <h1>Quiz Redes</h1>
+	<form>
+
+    <!-- Pregunta 1 -->
+    <div class="question">1. ¿Qué significa LAN?</div>
+    <div class="answer">
+        <input type="radio" name="q1" value="a"> a) Local Area Network<br>
+        <input type="radio" name="q1" value="b"> b) Large Area Network<br>
+        <input type="radio" name="q1" value="c"> c) Long Access Network
+    </div>
+
+    <!-- Pregunta 2 -->
+    <div class="question">2. ¿Cuál es el protocolo utilizado para enviar correos electrónicos?</div>
+    <div class="answer">
+        <input type="radio" name="q2" value="a"> a) HTTP<br>
+        <input type="radio" name="q2" value="b"> b) SMTP<br>
+        <input type="radio" name="q2" value="c"> c) FTP
+    </div>
+
+    <!-- Pregunta 3 -->
+    <div class="question">3. ¿Qué dispositivo se utiliza para conectar diferentes redes en Internet?</div>
+    <div class="answer">
+        <input type="radio" name="q3" value="a"> a) Router<br>
+        <input type="radio" name="q3" value="b"> b) Switch<br>
+        <input type="radio" name="q3" value="c"> c) Hub
+    </div>
+	
+	<!-- Pregunta 4 -->
+    <div class="question">4. ¿Cuantos tipos de redes existen?</div>
+    <div class="answer">
+        <input type="radio" name="q3" value="a"> a) 5<br>
+        <input type="radio" name="q3" value="b"> b) 2<br>
+        <input type="radio" name="q3" value="c"> c) 8
+    </div>
+	
+	<!-- Pregunta 5 -->
+    <div class="question">5. ¿Cual de los siguientes es un componente de red?</div>
+    <div class="answer">
+        <input type="radio" name="q3" value="a"> a) LAN<br>
+        <input type="radio" name="q3" value="b"> b) Nodos<br>
+        <input type="radio" name="q3" value="c"> c) Datos
+    </div>
+	
+    <!-- Pregunta 6 -->
+    <div class="question">6. ¿Qué es una VPN (Red Privada Virtual)?</div>
+    <div class="answer">
+        <input type="radio" name="q3" value="a"> a) Un tipo de enrutador.<br>
+        <input type="radio" name="q3" value="b"> b) Una red sin cables.<br>
+        <input type="radio" name="q3" value="c"> c) Una conexión segura a través de una red pública, como Internet.<br>
+		<input type="radio" name="q3" value="d"> d) Un protocolo de enlace de datos.
+    </div>
+	
+    <!-- Pregunta 7 -->
+    <div class="question">7. ¿Qué protocolo se utiliza comúnmente para asignar direcciones IP de manera dinámica en una red?</div>
+    <div class="answer">
+        <input type="radio" name="q3" value="a"> a) DNS<br>
+        <input type="radio" name="q3" value="b"> b) DHCP<br>
+        <input type="radio" name="q3" value="c"> c) FTP<br>
+		<input type="radio" name="q3" value="d"> d) HTTP
+    </div>
+	
+    <!-- Pregunta 8 -->
+    <div class="question">8. ¿Cuál de las siguientes opciones describe mejor la función de un firewall en una red?</div>
+    <div class="answer">
+        <input type="radio" name="q3" value="a"> a) Facilitar la comunicación entre dispositivos en la red.<br>
+        <input type="radio" name="q3" value="b"> b) Bloquear el acceso no autorizado y controlar el tráfico.<br>
+        <input type="radio" name="q3" value="c"> c) Actuar como un repetidor de señal inalámbrica.<br>
+		<input type="radio" name="q3" value="d"> d) Gestionar las direcciones IP dinámicas.
+    </div>
+	
+    <!-- Pregunta 9 -->
+    <div class="question">9. ¿Cuál es la diferencia principal entre una red LAN y una red WAN?</div>
+    <div class="answer">
+        <input type="radio" name="q3" value="a"> a) La velocidad de transmisión de datos.<br>
+        <input type="radio" name="q3" value="b"> b) La distancia geográfica que cubren.<br>
+        <input type="radio" name="q3" value="c"> c) El tipo de cable utilizado.<br>
+		<input type="radio" name="q3" value="d"> d) El número de dispositivos conectados.
+    </div>		
+	
+    <!-- Pregunta 10 -->
+    <div class="question">10. ¿Qué es un VLAN (Virtual Local Area Network)?</div>
+    <div class="answer">
+        <input type="radio" name="q3" value="a"> a) Un tipo de cable de red.<br>
+        <input type="radio" name="q3" value="b"> b) Una red inalámbrica.<br>
+        <input type="radio" name="q3" value="c"> c) Una red privada virtual.<br>
+		<input type="radio" name="q3" value="d"> d) Una red lógica dentro de una red física.
+    </div>		
+
+<div class="center"><button class="button button1" onClick="alert('Las respuestas fuerón enviadas');">Submit answers/Enviar respuestas</button></div>
+</form>
+  
+</body>
+</html>
+
